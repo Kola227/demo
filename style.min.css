@@ -1,0 +1,845 @@
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(Raleway-Medium.ttf);
+    /* подключаем штрифты */
+}
+
+* {
+    padding-top: 0;
+    margin: 0;
+    /* настройки по умолчанию */
+}
+
+/* .body {
+
+} */
+
+.mainscreen {
+    width: 1200px;
+    height: 800px;
+    background-image: url(gradient.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    /* Настройка расположения фон-мейн */
+}
+
+.logo {
+    
+    margin-left: 140px;
+    padding-top: 32px;
+    padding-right: 80px;
+    /* Настройка расположения логотипа */
+}
+
+.menu {
+    padding-left: 0;
+    /* -отступ слева у таблицы */
+}
+
+.li1 {
+    display: inline-block;
+    padding-left: 30px;
+    font-family: Raleway-Medium;
+    font-weight: 900;
+    /* выстраиваем таблицу в горизонтальную линию */
+}
+
+.li2 {
+    display: inline-block;
+    padding-left: 200px;
+    /* Настраиваем svg search */
+}
+
+.li3 {
+    display: inline-block;
+    padding-left: 20px;
+    /* настраиваем svg bag and user*/
+}
+
+.li4 {
+    display: inline-block;
+    padding-left: 0px;
+    /* Настраиваем svg logotype */
+}
+
+
+.ab {
+    text-decoration: none;
+    color: black;
+}
+
+.ab:visited {
+    color: none;
+}
+
+.ab:hover {
+    color: rgb(57, 118, 158);
+}
+/* .ab - это настройка вида ссылок меню */
+
+.pho1 {
+    float: right;
+    padding-left: 25px;
+    padding-top: 50px;
+    width: 300px;
+    padding-right: 120px;
+
+
+    /* Настройка расположения фото */
+} 
+
+.div1 {
+    padding-top: 150px;
+    padding-left: 135px;
+    font-family: Raleway-Medium;
+    font-size: 40px;
+    /* Настройка текста рядом с фото */
+}
+
+.div2 {
+    padding-top: 15px;  
+    padding-left: 135px; 
+    font-family: Raleway-Medium;
+    font-size: 21px;
+    /* Настройка второго текста рядом с фото */
+}
+
+.div3 {
+    padding-top: 30px;  
+    padding-left: 135px; 
+    font-family: Raleway-Medium;
+    font-size: 15px;
+    /* Настройка кнопки рядом с фото */
+}
+
+.ac {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 80px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    font-family: Raleway-Medium;
+    /* Дизайн кнопки и ссылки */
+}
+
+.ac:visited {
+    color: none;
+}
+
+.ac:hover {
+    color: rgb(201, 221, 235);
+}
+
+.bestsel {
+    width: 1200px;
+    height: 500px;  
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    /* Настройка расположения фон-бестсел */
+}
+
+.li5 {
+    display: inline-block;
+    padding-left: 100px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 35px;
+    /* Настройка надписи Бестселлеры */
+}
+
+.li6 {
+    display: inline-block;
+    padding-left: 600px;
+    font-size: 16px;
+    font-family: Raleway-Medium;
+    font-weight: 300;
+    /* настройка надписи смотреть все */
+}
+
+.div4 {
+    border-bottom: 1px solid black ;
+    padding-bottom: 3px;
+    /* подчеркивание надписи смотреть все */
+}
+
+.li7 {
+    display: inline-block;
+    padding-left: 40px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 35px;
+    /* Настройка надписи Бестселлеры */
+}
+
+.li8 {
+    display: inline-block;
+    padding-left: 100px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 35px;
+    /* Настройка надписи Бестселлеры */
+}
+
+.group1{
+    padding-top: 39px;
+    width: 285px;
+    /* размер и отступ фото */
+}
+
+.ad {
+    text-decoration: none;
+    color: black;
+    /* редактирование ссылки смотреть все */
+}
+
+.ad:visited {
+    color: none;
+}
+
+.ad:hover {
+    color: rgb(57, 118, 158);
+}
+
+.li9 {
+    display: inline-block;
+    padding-left: 100px;
+    font-family: Raleway-Medium;
+    font-weight: 900;
+    font-size: 23px;
+    /* li9 - li14 настройка подписей и цены */
+}
+
+.li10 {
+    display: inline-block;
+    padding-left: 80px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 20px;
+}
+ 
+.li11 {
+    display: inline-block;
+    padding-left: 40px;
+    font-family: Raleway-Medium;
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.li12 {
+    display: inline-block;
+    padding-left: 80px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.li13 {
+    display: inline-block;
+    padding-left: 40px;
+    font-family: Raleway-Medium;
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.li14 {
+    display: inline-block;
+    padding-left: 60px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.catphoto {
+    width: 1200px;
+    height: 550px;
+    background-image: url(8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div5 {
+    padding-top: 110px;
+    padding-left: 135px;
+    font-family: Raleway-Medium;
+    font-weight: 500;
+    font-size: 35px;
+    /* Настройка текста рядом с фото для бестсел */
+}
+
+.div6 {
+    padding-top: 15px;  
+    padding-left: 135px;
+    font-weight: 200; 
+    font-family: Raleway-Medium;
+    font-size: 21px;
+    /* Настройка второго текста рядом с фото для бестсел */
+}
+
+.pho2 {
+    float: right;
+    padding-left: 100px;
+    padding-top: 50px;
+    width: 300px;
+    padding-right: 120px;
+    /* Настройка расположения фейкфото */
+} 
+
+.carttov {
+    width: 1200px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pho3 {
+    float: right;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 0;
+
+
+    /* Настройка расположения фото */
+} 
+
+.abcd {
+    font-family: Raleway-Medium;
+    font-size: 20px;
+    font-weight: 600;
+}
+.abcd {
+    text-decoration: none;
+    color: black;
+    /* редактирование ссылки смотреть все */
+}
+
+.abcd:visited {
+    color: none;
+    
+}
+
+.div7 {
+    padding-top: 50px;
+    padding-left: 135px;
+    
+    font-family: Raleway-Medium;
+    font-size: 35px;
+    font-weight: 500;
+    /* Настройка текста рядом с фото */
+}
+.div8 {
+    padding-top: 15px;  
+    padding-left: 135px; 
+    font-family: Raleway-Medium;
+    font-weight: 400;
+    font-size: 20px;
+    /* Настройка второго текста рядом с фото */
+}
+
+.div9 {
+    padding-top: 15px;  
+    padding-left: 135px; 
+    font-family: Raleway-Medium;
+    font-weight:600;
+    font-size: 18px;
+    /* Настройка второго текста рядом с фото */
+}
+
+.imgcolor {
+    padding-top: 15px;  
+    padding-left: 105px;
+    width: 215px; 
+}
+
+.div10 {
+    padding-left: 135px; 
+    font-family: Raleway-Medium;
+    font-weight:600;
+    font-size: 18px;
+    /* Настройка второго текста рядом с фото */
+}
+
+.div11 {
+    padding-left: 135px; 
+    padding-top: 10px;
+    font-family: Raleway-Medium;
+    font-weight:100;
+    font-size: 15px;
+}
+
+.div12 {
+    padding-left: 135px; 
+    padding-top: 7px;
+    font-family: Raleway-Medium;
+    font-weight:100;
+    font-size: 15px;
+}
+
+.div13 {
+    padding-left: 135px; 
+    padding-top: 7px;
+    font-family: Raleway-Medium;
+    font-weight:100;
+    font-size: 15px;
+}
+
+.div14 {
+    padding-left: 135px; 
+    padding-top: 7px;
+    font-family: Raleway-Medium;
+    font-weight:100;
+    font-size: 15px;
+}
+
+.div15 {
+    padding-left: 135px; 
+    padding-top: 7px;
+    font-family: Raleway-Medium;
+    font-weight:100;
+    font-size: 15px;
+}
+
+.ab1 {
+    font-family: Raleway-Medium;
+    font-size: 13px;
+    font-weight: 100;
+}
+.ab1 {
+    /* text-decoration: none; */
+    color: rgb(190, 190, 190);
+    /* редактирование ссылки смотреть все */
+}
+
+
+.ab1:visited {
+    color: none;
+    
+}
+
+.div16 {
+    padding-top: 140px;  
+    padding-left: 150px; 
+    font-family: Raleway-Medium;
+    font-size: 16px;
+    /* Настройка кнопки рядом с фото */
+}
+
+.span1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.acb {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    font-family: Raleway-Medium;
+    /* Дизайн кнопки и ссылки */
+}
+
+.acb:visited {
+    color: none;
+}
+
+.acb:hover {
+    color: rgb(201, 221, 235);
+}
+
+.li15 {
+    display: inline-block;
+    padding-top: 40px; 
+    padding-left: 150px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.li16 {
+    /* display: inline-block; */
+    width: 660px;
+    padding-top: 40px ;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 24px;
+    float: right;
+    list-style: none;
+}
+
+.span123 {
+    font-size: 29px;
+}
+
+.li17 {
+    padding-top: 40px; 
+    padding-left: 150px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 25px;
+    color: gainsboro;
+    list-style: none;
+}
+
+
+
+.txt111 {
+    width: 1200px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+}
+
+.areus {
+    width: 1200px;
+    height: 800px;
+    background-image: url(gradient.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    /* Настройка расположения фон-мейн */
+}
+
+.ulmenu {
+    padding-left: 0%;
+    height: 800px;
+}
+.li18 {
+    float: left;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 40px;
+    list-style: none;
+}
+.li19 {
+    padding-left: 40px;
+    font-family: Raleway-Medium;
+    padding-top: 120px;
+    font-weight: 100;
+    font-size: 45px;
+    list-style: none;
+    width: 900px;
+    text-align: center;
+}
+.li20 {
+      /* display: inline-block; */
+      padding-top: 60px ;
+      padding-right: 10px;
+      float: right;
+      list-style: none;
+}
+
+
+.li21 {
+    float: left;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 40px;
+    list-style: none;
+}
+.li22 {
+    padding-left: 40px;
+    font-family: Raleway-Medium;
+    padding-top: 30px;
+    font-weight: 100;
+    font-size: 23px;
+    list-style: none;
+    width: 900px;
+    text-align: center;
+    height: 200px;
+}
+.li23 {
+      /* display: inline-block; */
+      padding-top: 0px ;
+      padding-right: 10px;
+      float: right;
+      list-style: none;
+}
+
+.li24 {
+    float: left;
+    padding-left: 10px;
+    padding-right: 40px;
+    list-style: none;
+}
+.li25 {
+    padding-left: 40px;
+    font-family: Raleway-Medium;
+    padding-top: 80px;
+    font-weight: 100;
+    font-size: 45px;
+    list-style: none;
+    width: 900px;
+    text-align: center;
+}
+.li26 {
+      /* display: inline-block; */
+      padding-right: 10px;
+      float: right;
+      list-style: none;
+}
+
+.acb1 {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: 280px;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    font-family: Raleway-Medium;
+    /* Дизайн кнопки и ссылки */
+}
+
+.acb1:visited {
+    color: none;
+}
+
+.acb1:hover {
+    color: rgb(201, 221, 235);
+}
+
+.prem {
+    width: 1200px;
+    height: 700px;  
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    /* Настройка расположения фон-бестсел */
+}
+
+.img07 {
+    padding-top: 80px;
+    padding-left: 20px;
+    float: left;
+}
+
+
+
+.div17 {
+    padding-top: 80px;
+    width: 360px;
+    float: right;
+    padding-right: 150px;
+    font-family: Raleway-Medium;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.div18 {
+    padding-top: 37px;
+    width: 360px;
+    float: right;
+    padding-right: 150px;
+    font-family: Raleway-Medium;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.podpiska {
+    width: 1200px;
+    height: 800px;
+    background-image: url(gradient.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img17 {
+    float: right;
+    padding-top: 100px;
+    padding-right: 70px;
+}
+
+.div19 {
+    font-family: Raleway-Medium;
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+.div20 {
+    font-family: Raleway-Medium;
+    font-weight: 600;
+    width: 450px;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.div21 {
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    width: 470px;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 40px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 0px;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.div22 {
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    width: 470px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.div23 {
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    width: 470px;
+    font-size: 20px;
+    padding-top: 65px;
+    padding-left: 70px;
+}
+
+input[type="text1"] {
+    width: 465px;
+    height: 40px;
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 0px;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.div24 {
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    width: 470px;
+    padding-bottom: 20px;
+
+}
+.div25 {
+    font-family: Raleway-Medium;
+    font-weight: 200px;
+    font-size: 20px;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+.div26 {
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 20px;
+    padding-left: 70px;
+}
+
+input[type="radio"] {
+    transform: scale(2);
+    margin-top: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+    margin-top: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.div27 {
+    font-family: Raleway-Medium;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 70px;
+}
+
+.av {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 80px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    font-family: Raleway-Medium;
+    /* Дизайн кнопки и ссылки */
+}
+
+.av:visited {
+    color: none;
+}
+
+.av:hover {
+    color: rgb(201, 221, 235);
+}
+
+.div28 {
+    font-family: Raleway-Medium;
+    font-weight: 100;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.footer {
+    width: 1200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.li102 {
+    display: inline-block;
+    padding-left: 30px;
+    font-family: Raleway-Medium;
+    font-weight: 900;
+    /* выстраиваем таблицу в горизонтальную линию */
+}
+
+.li101 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-right: 180px;
+
+}
+
+.li103 {
+    display: inline-block;
+    padding-left: 0px;
+    font-family: Raleway-Medium;
+    font-weight: 900;
+    padding-left: 180px;
+
+}
